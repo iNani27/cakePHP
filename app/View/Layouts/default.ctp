@@ -25,6 +25,7 @@
         <!--<link rel="stylesheet" href="http://localhost/portfolio/app/vue/css/styles.css">
         <link rel="stylesheet" href="http://localhost/cakePHP/app/webroot/theme.css">
         -->
+        <?php //echo $html->css("/theme/styles.css"); ?>
         <style>
             body{}
             #content{background-color:lightgreen;maring:0 2.3em;padding:2em;}
@@ -81,6 +82,7 @@
                     <header>
                         <h1 class="text-right"><span class="text-uppercase">Web Dev</span><br /><span class="small">Productions </span>&copy;Isabelle Nani</h1>
                     </header>
+                    <?php echo $content_for_layout; ?>
                     <p>Some content ...</p>
 
                 </div>
