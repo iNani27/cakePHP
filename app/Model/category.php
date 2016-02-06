@@ -2,7 +2,7 @@
 /**
  * Description of category
  *
- * @author Isabelle NANI <iNani@192.168.1.2>
+ * @author Isabelle NANI 
  */
 class Category extends AppModel{
     var $name="Category";
