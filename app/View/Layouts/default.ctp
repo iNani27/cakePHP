@@ -38,6 +38,7 @@
     </head>
     <body>
         <div id="container">
+
             <div class="row">
                 <!-- menu -->
                 <div class="col-xs-12">
@@ -54,21 +55,7 @@
                         </div>
                         <!-- menu collapse -->
                         <div class="collapse navbar-collapse">
-                            <ul class ="nav navbar-nav">
-                                <li class=""><a href="#section1">Qui</a></li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle ="dropdown" href="#">Quoi <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Objet | But</a></li>
-                                        <li><a href="#">CV | ExpÃ©riences</a></li>
-                                        <li class="active"><a href="#section23">RÃ©alisations</a>
-                                        <li class="active"><a href="#section24">FonctionalitÃ©s</a></li>
-                                        <li class="active"><a href="#section25">Langages de programmation</a></li>
-                                    </ul>  
-                                </li>
-                                <li><a href="#section3">Comment</a></li>
-                                <li><a href="#section4">Où</a></li>
-                            </ul>
+                            <?php echo $this->element("menu"); ?>
                             <!-- menu log -->
                             <ul class="nav navbar-nav navbar-right">
                                 <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>-->
