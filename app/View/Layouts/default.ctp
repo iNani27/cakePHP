@@ -55,7 +55,7 @@
                         </div>
                         <!-- menu collapse -->
                         <div class="collapse navbar-collapse">
-                            <?php echo $this->element("menu"); ?>
+                            <?php echo $this->element("menu",array("cache"=>"1 day")); ?>
                             <!-- menu log -->
                             <ul class="nav navbar-nav navbar-right">
                                 <!--<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;Sign Up</a></li>-->
